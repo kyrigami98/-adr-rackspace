@@ -7,11 +7,11 @@ Projet d'architecture des logiciels
 • des vues de structures architecturales pertinentes au regard des attributs choisis
 
 
-Developpement de l'ADR:
+Developpement de l'ADR: Kyriel DOSSOU
 ---------------------------------------------------------------------------------------------------------------------------------
 Version 1
-
-=>Context: 
+---------------------------------------------------------------------------------------------------------------------------------
+=>Contexte:  
 
 =>Problématiques:
 
@@ -19,3 +19,30 @@ Version 1
 
 => les scénarios d’attribut de qualité mis en avant:
 
+=> des vues de structures architecturales pertinentes au regard des attributs choisis:
+
+
+Version 2
+------------------------------------------------------------------------------------------------------------------------------------
+=>Contexte:  
+
+=>Problématiques:
+
+=>les cas d’utilisation:
+
+=> les scénarios d’attribut de qualité mis en avant:
+
+=> des vues de structures architecturales pertinentes au regard des attributs choisis:
+
+Version 3
+------------------------------------------------------------------------------------------------------------------------------------
+
+=>Contexte:  
+
+=>Problématiques:
+
+=>les cas d’utilisation:
+
+=> les scénarios d’attribut de qualité mis en avant:
+
+=> des vues de structures architecturales pertinentes au regard des attributs choisis:
