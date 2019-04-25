@@ -39,6 +39,7 @@ Le processus manuel de connexion à chaque serveur prend trop de temps aux ingé
 
 => des vues de structures architecturales pertinentes au regard des attributs choisis:
 
+...?
 
 
 Version 2
@@ -61,17 +62,22 @@ Un outil Web de recherche de journal permet aux techniciens du support technique
 
 - Attribut de qualité: La performance, disponibilité
 - Source: Rechercher un client
-- Stimulus: Client introuvable
+- Stimulus: Client existant introuvable
 - Artefact: Base de donnée MySql
 - Environnement: gestion et tri des fichiers de log via une Base de donnée
 - Réponse: 
   • Enregistrer la défaillance
-  • Aviser les techniciens et les ingénieurs de la cause de l'erreur de transmission de ticket
+  • Multiplier automatiquement la recherche du client en ajoutant des attributs de recherche spécifique
+  • Aviser les techniciens et les ingénieurs de la cause de l'erreur "Client existant introuvable"
 - Mesure de réponse:
-  • Enregistrer la défaillance
-  • Aviser les techniciens et les ingénieurs de la cause de l'erreur de transmission de ticket
+  • Parcourir directement les fichiers de logs à la recherche des logs du client au lieu de parcourir la Base de donnée
+  • Réenregistrer le client si le sytème trouve ses fichier de logs.
+  • Demander une authentification du client
+  • Demander un rapport electronique du client
   
 => des vues de structures architecturales pertinentes au regard des attributs choisis:
+
+...?
 
 Version 3
 ------------------------------------------------------------------------------------------------------------------------------------
