@@ -91,6 +91,9 @@ Version 3
 
 =>les cas d’utilisation:
 
+ - Rechercher un client
+ - Supprimer les données de log
+ - Visualiser le chargement de la base de donnée via un Hadoop
 
 => les scénarios d’attribut de qualité mis en avant:
 
