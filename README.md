@@ -44,10 +44,18 @@ Le processus manuel de connexion à chaque serveur prend trop de temps aux ingé
 Version 2
 ------------------------------------------------------------------------------------------------------------------------------------
 =>Contexte:  
+Un outil Web de recherche de journal permet aux techniciens du support technique de rechercher les journaux, sans impliquer les ingénieurs.Il permettait de rechercher l'adresse de messagerie, le nom de domaine ou l'adresse IP de l'expéditeur ou du destinataire Les journaux de chaque jour étaient stockés dans une table séparée, afin de pouvoir nettoyer les anciennes données en supprimant et en recréant simplement les tables MySQL.Les données de journal  étaient conservées que pendant 3 jours afin de maintenir la base de données MySQL à une taille raisonnable.
 
 =>Problématiques:
+- Au fur et à mesure que les tables grandissaient, l'indexation de chaque entrée insérée devenait lente. 
+- Lorsque nous atteignions environ 100 serveurs, les opérations de chargement de la base de données prenaient plus de temps.
 
 =>les cas d’utilisation:
+ 
+ - Rechercher un clients
+ - Supprimer les tables sql
+ - Supprimer les données de log
+ - Visualiser le chargement de la base de donnée
 
 => les scénarios d’attribut de qualité mis en avant:
 
