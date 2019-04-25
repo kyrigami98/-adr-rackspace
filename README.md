@@ -82,20 +82,30 @@ Un outil Web de recherche de journal permet aux techniciens du support technique
 Version 3
 ------------------------------------------------------------------------------------------------------------------------------------
 
-=>Contexte:  
+=>Contexte: un nouveau système de traitement des grumes utilisant Hadoop, Lucene et Solr
 
-=>Problématiques:
+=>Problématiques: 
+
+  - Bugs personnels
+  - Nécessité de se procurer de plus en plus espace de stockage
 
 =>les cas d’utilisation:
 
+
 => les scénarios d’attribut de qualité mis en avant:
 
-Attribut de qualité:
-Source:
-Stimulus:
-Artefact:
-Environnement:
-Réponse:
-Mesure de réponse:
-
+- Attribut de qualité: évolutivité, Peformance
+- Source: Suppressions des logs
+- Stimulus: Serveur inaccessible
+- Artefact: des milliers de serveurs, Hadoop, Lucene, Solr.
+- Environnement: gestion des fichiers de log via une Base de donnée distribuée par Hadoop
+- Réponse:
+  • Enregistrer les informations du serveurs inaccessible
+  • Informer l'equipe technique
+  • Demande d'explication a Hadoop
+- Mesure de réponse:
+  • migration des données vers d'autres serveurs
+  • supprimer les données depuis un serveurs secondaires
 => des vues de structures architecturales pertinentes au regard des attributs choisis:
+
+...?
