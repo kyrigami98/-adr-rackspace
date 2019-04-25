@@ -24,17 +24,21 @@ Le processus manuel de connexion à chaque serveur prend trop de temps aux ingé
   
 => les scénarios d’attribut de qualité mis en avant:
 
-La rapidité est le se
+-Attribut de qualité: Performance, Testabilité
+-Source: Envoi de tichet par un technicien
+-Stimulus: erreur de transmission de ticket
+-Artefact: serveurs de logs
+-Environnement: verifications de la validations des tickets
+-Réponse:
+  • Enregistrer la défaillance
+  • Aviser les techniciens et les ingénieurs de la cause de l'erreur de transmission de ticket
 
-Attribut de qualité:
-Source:
-Stimulus:
-Artefact:
-Environnement:
-Réponse:
-Mesure de réponse:
+-Mesure de réponse:
+  • Sensibilisé les techniciens sur la validité des tickets à envoyer au ingénieurs
+  • Contacter le techniciens responsable de l'envoi du ticket pour verification d'identité
 
 => des vues de structures architecturales pertinentes au regard des attributs choisis:
+
 
 
 Version 2
