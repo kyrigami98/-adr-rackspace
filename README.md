@@ -16,6 +16,7 @@ Les Logs étaient stockés dans des fichiers de texte plats sur le disque local 
 
 =>Problématiques:
 Le processus manuel de connexion à chaque serveur prend trop de temps aux ingénieurs une fois dépassé la douzaine de serveurs.
+
 =>les cas d’utilisation:
   - Envoyer les tickets
   - Se connecter au server
@@ -24,6 +25,14 @@ Le processus manuel de connexion à chaque serveur prend trop de temps aux ingé
 => les scénarios d’attribut de qualité mis en avant:
 
 La rapidité est le se
+
+Attribut de qualité:
+Source:
+Stimulus:
+Artefact:
+Environnement:
+Réponse:
+Mesure de réponse:
 
 => des vues de structures architecturales pertinentes au regard des attributs choisis:
 
@@ -38,6 +47,14 @@ Version 2
 
 => les scénarios d’attribut de qualité mis en avant:
 
+Attribut de qualité:
+Source:
+Stimulus:
+Artefact:
+Environnement:
+Réponse:
+Mesure de réponse:
+
 => des vues de structures architecturales pertinentes au regard des attributs choisis:
 
 Version 3
@@ -50,5 +67,13 @@ Version 3
 =>les cas d’utilisation:
 
 => les scénarios d’attribut de qualité mis en avant:
+
+Attribut de qualité:
+Source:
+Stimulus:
+Artefact:
+Environnement:
+Réponse:
+Mesure de réponse:
 
 => des vues de structures architecturales pertinentes au regard des attributs choisis:
