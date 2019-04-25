@@ -59,14 +59,18 @@ Un outil Web de recherche de journal permet aux techniciens du support technique
 
 => les scénarios d’attribut de qualité mis en avant:
 
-Attribut de qualité:
-Source:
-Stimulus:
-Artefact:
-Environnement:
-Réponse:
-Mesure de réponse:
-
+- Attribut de qualité: La performance, disponibilité
+- Source: Rechercher un client
+- Stimulus: Client introuvable
+- Artefact: Base de donnée MySql
+- Environnement: gestion et tri des fichiers de log via une Base de donnée
+- Réponse: 
+  • Enregistrer la défaillance
+  • Aviser les techniciens et les ingénieurs de la cause de l'erreur de transmission de ticket
+- Mesure de réponse:
+  • Enregistrer la défaillance
+  • Aviser les techniciens et les ingénieurs de la cause de l'erreur de transmission de ticket
+  
 => des vues de structures architecturales pertinentes au regard des attributs choisis:
 
 Version 3
